@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;   
+    text-align: center;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+    background-color: #fff;
+}
+
+header{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   background-color: gray;
+
+}
+
+header a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    color:black;
+
+}
+
+header li{
+    font-size: 1.5rem;
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    
+}
+
+
+.navigation li{
+    display: inline-block;
+    padding: 2.7% 20px;
+    margin: 0%;
+    border-radius: 5px;
+}
+
+.logo{
+    margin-right: auto;
+    padding: 12px 2%;
+    margin-left: 1%;
+    border-radius: 5px;
+    transition: all 1s ease 0s;
+}
+.logo:hover{
+    background-color:rgb(85, 85, 85);
+}
+
+.navigation li{
+    transition: all 1s ease 0s;
+}
+
+.navigation li:hover{
+    background-color:rgb(85, 85, 85) ;
+
+}
+
+#active{
+    background-color:rgb(85, 85, 85);
+}
+.first-div{
+    width: 100%;
+    padding: 0 0;
+}
+@media  screen and (max-width:700px){
+    .theacustics
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .theacustics img{
+        height: 30%;
+        width: 90%;
+    }
+}
+
+#icons i{
+    font-size:1rem;
+}
+li, a{
+    font-size: 2rem;
+    text-decoration: none !important;
+    list-style: none !important;
+    color: rgb(34, 32, 32) !important; 
+}
